@@ -1,0 +1,283 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="258e617c-449d-4b10-a2a7-68fc5b5be385" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Department</ID>
+  <Name>Dim Department</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1737" scrolltop="-3672" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7112" y="8721" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimDepartment" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3598" height="3747" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00000e0e0000a30e0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimDepartment" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1737</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3672</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="169">
+            <Shape Id="Dept SK" Expanded="true">
+              <Attributes>
+                <Attribute Id="Dept SK" />
+                <Attribute Id="Alternate Dept ID" />
+                <Attribute Id="Bed Grade" />
+                <Attribute Id="Department Name" />
+                <Attribute Id="Insert Date" />
+                <Attribute Id="Modified Date" />
+                <Attribute Id="Ward Facility" />
+                <Attribute Id="Ward Type" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="3103a83a-3963-4201-a642-f9652cda36c5">
+    <DataSourceViewID>DSV_Hospital DW</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="54bab317-f48e-45ee-8303-ef2916a13206">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="64e926d2-7782-4ea2-a347-c12dbe6082f8">
+      <ID>Dept SK</ID>
+      <Name>Dept SK</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="b5441c1f-f6c7-4394-aca5-c0df539a789b">
+          <DataType>SmallInt</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b34fe1cd-c7d0-4cab-ac50-33d31c08e9c6">
+            <TableID>dbo_DimDepartment</TableID>
+            <ColumnID>DeptSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="faabacc7-4888-4fd7-be52-73420fe47f91">
+          <AttributeID>Alternate Dept ID</AttributeID>
+          <Name>Alternate Dept ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="8773845e-b9e7-4cb8-bce0-f51d5121fd5d">
+          <AttributeID>Department Name</AttributeID>
+          <Name>Department Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="06205916-f38a-4e30-8ccf-56bd533a4d4b">
+          <AttributeID>Ward Type</AttributeID>
+          <Name>Ward Type</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="df70596d-f4bd-4619-ad63-292d65b251f4">
+          <AttributeID>Ward Facility</AttributeID>
+          <Name>Ward Facility</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a1168f8b-3108-4a82-8b89-6b26cb81dc15">
+          <AttributeID>Bed Grade</AttributeID>
+          <Name>Bed Grade</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="eca63d71-12e0-49d7-a624-15074c16802e">
+      <ID>Alternate Dept ID</ID>
+      <Name>Alternate Dept ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="13772905-1a28-4b92-8bcf-3aa4d4e8fd23">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="053c7a5d-c0ba-4e2c-a7fe-52257ac7fb86">
+            <TableID>dbo_DimDepartment</TableID>
+            <ColumnID>AlternateDeptID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="3b24b5d6-7fa9-4d26-aff2-b4e078744e9f">
+      <ID>Department Name</ID>
+      <Name>Department Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="1ac2cc77-2951-46c7-b053-35ed28784bf2">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="6bd8b9de-9383-430a-bda5-30a4e4929b4f">
+            <TableID>dbo_DimDepartment</TableID>
+            <ColumnID>Department_Name</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="ac75df5c-0367-43b1-a6aa-6e3f83de02fe">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a010f752-0a1c-48d3-92ee-639b6e94071b">
+            <TableID>dbo_DimDepartment</TableID>
+            <ColumnID>DeptSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="73135d5b-2d3d-44d0-8841-be8f00747dbc">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="73ee1fa9-40c6-4410-8863-4539d5f8fb33">
+          <TableID>dbo_DimDepartment</TableID>
+          <ColumnID>Department_Name</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="45bd02bb-c321-4842-a8fa-88213ba53b1e">
+      <ID>Ward Type</ID>
+      <Name>Ward Type</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="07a04ad4-9f61-4d74-a78b-3cdce83ec565">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="922dc505-0da1-4b2f-acf6-15a7dbd491c3">
+            <TableID>dbo_DimDepartment</TableID>
+            <ColumnID>Ward_Type</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="296f73fb-396f-4566-a853-f2cf809b17e3">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="a49e2de3-7d9b-4848-acc6-65b065f22c7c">
+            <TableID>dbo_DimDepartment</TableID>
+            <ColumnID>DeptSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="e06b287c-dc51-415d-a3a8-4cc08ae0d23c">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="630fbded-0332-4003-81ba-72d99718b990">
+          <TableID>dbo_DimDepartment</TableID>
+          <ColumnID>Ward_Type</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="2037bf49-45c0-47d8-b59e-9d3eb7f9969c">
+      <ID>Ward Facility</ID>
+      <Name>Ward Facility</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="5e45a165-578a-4035-aa74-fb4643a4643d">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="ce9cc080-7044-4ce6-882e-48c2d4dcdedd">
+            <TableID>dbo_DimDepartment</TableID>
+            <ColumnID>Ward_Facility</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="0aeb9132-503a-421b-9704-5660a2cf6b25">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="61cce79b-147e-4453-8d04-fd394fdb808b">
+            <TableID>dbo_DimDepartment</TableID>
+            <ColumnID>DeptSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="295da37f-470c-4db3-adc4-28eacf283a85">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="3d8b3e60-c4a7-42e0-bd88-6ae972f23022">
+          <TableID>dbo_DimDepartment</TableID>
+          <ColumnID>Ward_Facility</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="04b737cf-7125-41f4-98b7-028d14e49a63">
+      <ID>Bed Grade</ID>
+      <Name>Bed Grade</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="61f17c92-0eac-4eab-a01f-117952be9663">
+          <DataType>UnsignedTinyInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0f12b4c2-03c0-4b4b-8690-5c17dbae15c3">
+            <TableID>dbo_DimDepartment</TableID>
+            <ColumnID>Bed_Grade</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="5481e7f8-c7b5-4cc7-b0d9-12efbc78e753">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1a06ab9d-8211-4036-8457-21ec4966d83f">
+            <TableID>dbo_DimDepartment</TableID>
+            <ColumnID>DeptSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="ef1f5fcf-2eb1-4434-9b65-dffc28960798">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="19546486-bb7e-4fcf-b12e-f0c6d8938011">
+          <TableID>dbo_DimDepartment</TableID>
+          <ColumnID>Bed_Grade</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

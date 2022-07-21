@@ -1,0 +1,369 @@
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d49972ae-76a9-433b-95c9-377b337c3faa" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Dim Doctor</ID>
+  <Name>Dim Doctor</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="2" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-1811" scrolltop="-3132" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7112" y="8721" backcolor="16777215" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="010000009001b0300100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="DimDoctor" left="20" top="0" logicalid="1" controlid="1" masterid="0" hint1="0" hint2="0" width="3450" height="4826" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00007a0d0000da120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_DimDoctor" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-1811</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-3132</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>20</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="102">
+            <Shape Id="Doctor SK" Expanded="true">
+              <Attributes>
+                <Attribute Id="Doctor SK" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="8c08cc6c-931c-44da-ae53-f04f8e2f1a1b">
+    <DataSourceViewID>DSV_Hospital DW</DataSourceViewID>
+  </Source>
+  <UnknownMember>Visible</UnknownMember>
+  <ErrorConfiguration dwd:design-time-name="69727ae0-9dc1-4045-8233-51abfa37b3cf">
+    <KeyNotFound>ReportAndStop</KeyNotFound>
+    <KeyDuplicate>ReportAndStop</KeyDuplicate>
+    <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
+  </ErrorConfiguration>
+  <CurrentStorageMode>Molap</CurrentStorageMode>
+  <Attributes>
+    <Attribute dwd:design-time-name="1eae73ee-1409-4868-81b9-66b09eed5053">
+      <ID>Doctor SK</ID>
+      <Name>Doctor SK</Name>
+      <Usage>Key</Usage>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="7c5099ea-44ec-49ae-82fa-3d2606a8bdaf">
+          <DataType>SmallInt</DataType>
+          <NullProcessing>UnknownMember</NullProcessing>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="b01201fc-d660-42ef-90b5-a2a225ca74e6">
+            <TableID>dbo_DimDoctor</TableID>
+            <ColumnID>DoctorSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="66876cf1-519c-4567-af10-e3efa8d54d44">
+          <AttributeID>Alternate Doctor ID</AttributeID>
+          <Name>Alternate Doctor ID</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="e548b715-52f9-41a7-a766-5aaa96426d96">
+          <AttributeID>First Name</AttributeID>
+          <Name>First Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="31c665dd-1931-40ef-88fe-5471cfa4bf17">
+          <AttributeID>Last Name</AttributeID>
+          <Name>Last Name</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="90f2897a-21a7-4188-bbe2-fc4ec1712b44">
+          <AttributeID>Speciality</AttributeID>
+          <Name>Speciality</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="02064fd9-8996-4784-9460-f2fe3cbf8445">
+          <AttributeID>INDICATOR</AttributeID>
+          <Name>INDICATOR</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="a1ce9c01-c82d-4899-89af-ab3541f70b3e">
+          <AttributeID>SUBJECT</AttributeID>
+          <Name>SUBJECT</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="b7a525a7-9bbb-4d62-999f-c03bca6a8735">
+          <AttributeID>MEASURE</AttributeID>
+          <Name>MEASURE</Name>
+        </AttributeRelationship>
+        <AttributeRelationship dwd:design-time-name="370c87bd-2312-4683-82f0-988c166d5bf3">
+          <AttributeID>FREQUENCY</AttributeID>
+          <Name>FREQUENCY</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
+      <OrderBy>Key</OrderBy>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="660d2429-372a-455e-a424-91cfb1c01ad9">
+      <ID>Alternate Doctor ID</ID>
+      <Name>Alternate Doctor ID</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="6d7f35a1-a014-455c-bf22-9cc4bb27442d">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="0fa4e0cd-5624-4df9-b805-2c531600d49d">
+            <TableID>dbo_DimDoctor</TableID>
+            <ColumnID>AlternateDoctorID</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="7d30b2a9-e5a4-4491-90e3-293bb33d55c4">
+      <ID>First Name</ID>
+      <Name>First Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="3dba65e2-6b7a-452d-8fdc-bab9831c7db8">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f32fec3e-d908-46ad-819c-7705ddab5d45">
+            <TableID>dbo_DimDoctor</TableID>
+            <ColumnID>first_name</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="360025d0-14f6-4c10-9149-ad9bf36a3b4a">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="82bed13e-3ec6-40ed-aec5-4693b981d425">
+            <TableID>dbo_DimDoctor</TableID>
+            <ColumnID>DoctorSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="41d5687e-b8d3-4eb1-8ef5-283efd9d80fa">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="7531f42e-0bca-481e-8f5c-fa8118708fd4">
+          <TableID>dbo_DimDoctor</TableID>
+          <ColumnID>first_name</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="ea8d57e0-0bf8-4bf6-9758-a418a61e00b9">
+      <ID>Last Name</ID>
+      <Name>Last Name</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="d802950d-9b18-478c-a7f0-539ea5c21ce7">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="554c4f45-1086-4809-a524-c25c071c3efd">
+            <TableID>dbo_DimDoctor</TableID>
+            <ColumnID>last_name</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="e55879e1-b8d4-4b71-890f-dcae414c180b">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7ab47b83-d811-4046-abe7-6fe020c54c9d">
+            <TableID>dbo_DimDoctor</TableID>
+            <ColumnID>DoctorSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="87102de5-1983-41df-ad2f-a8ac5c8c4536">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="16f87f75-50af-4185-977b-d5f6fb8938aa">
+          <TableID>dbo_DimDoctor</TableID>
+          <ColumnID>last_name</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="0a42bb6e-6985-4f60-9f7b-4810c83208a7">
+      <ID>Speciality</ID>
+      <Name>Speciality</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="4c759ac0-ebdf-450a-9d9c-bbb9bfa0df59">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="71629f15-dc8e-408a-ba08-276e90f67942">
+            <TableID>dbo_DimDoctor</TableID>
+            <ColumnID>speciality</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="26cb89a6-447a-470e-acff-75ea0e2d3888">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="c9bad72a-14cc-4873-b9dc-c497da97a4f3">
+            <TableID>dbo_DimDoctor</TableID>
+            <ColumnID>DoctorSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="9e443fd0-7709-4288-ae4f-412f1d2fcb79">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="53a9ae49-eeb2-46f8-9993-3fb886d97501">
+          <TableID>dbo_DimDoctor</TableID>
+          <ColumnID>speciality</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="247842ca-0cae-4e57-8fa5-0ed6acc58104">
+      <ID>INDICATOR</ID>
+      <Name>INDICATOR</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="ec0bf51a-9686-45d3-b7e6-0d9f3023b784">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="819c4a56-5ad7-44bf-9b24-672870cf276c">
+            <TableID>dbo_DimDoctor</TableID>
+            <ColumnID>INDICATOR</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="2a122aa1-4146-493c-b146-53bbd2617791">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="7bd85160-9c10-4a29-b685-40fc0246c7ea">
+            <TableID>dbo_DimDoctor</TableID>
+            <ColumnID>DoctorSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="ba1eba29-5a2c-471d-be2b-8279be3c7ea9">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="c03d4d1f-15b0-4c5a-a78d-11c15914dd98">
+          <TableID>dbo_DimDoctor</TableID>
+          <ColumnID>INDICATOR</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="aebc3862-30f9-4608-aeb3-72eaf0d2ed16">
+      <ID>SUBJECT</ID>
+      <Name>SUBJECT</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="40531a1f-e20c-48c7-a48d-6052cd226d44">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e7cb36de-d463-4426-b085-8b8d4ebc9e72">
+            <TableID>dbo_DimDoctor</TableID>
+            <ColumnID>SUBJECT</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="97974408-db66-4622-a6c2-2c913ab89eec">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="1b4233a9-8855-4b19-9b19-339e7667668f">
+            <TableID>dbo_DimDoctor</TableID>
+            <ColumnID>DoctorSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="dadd3b87-f709-43f1-9de4-131a2c09ddf4">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="f915b7bc-85bd-4832-9285-a9a0a45a0e6b">
+          <TableID>dbo_DimDoctor</TableID>
+          <ColumnID>SUBJECT</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="4fe1cc25-6911-4612-bf5a-b69673cc9278">
+      <ID>MEASURE</ID>
+      <Name>MEASURE</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="93b91c5d-027e-47cd-8dfd-92639fff0b7a">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="e64ad7e0-27f9-4865-8e0b-3c341af9550e">
+            <TableID>dbo_DimDoctor</TableID>
+            <ColumnID>MEASURE</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="7f2f22d7-4fae-4678-93fd-afa1180c7e77">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="68b52189-d643-45db-9be4-52699b56bd38">
+            <TableID>dbo_DimDoctor</TableID>
+            <ColumnID>DoctorSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="455e779d-864e-4969-bb96-382d197734ab">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="00a4e831-033d-4a41-9b98-5e73a4f29d4c">
+          <TableID>dbo_DimDoctor</TableID>
+          <ColumnID>MEASURE</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+    <Attribute dwd:design-time-name="a7da5488-22a2-4b22-8596-1a2379357170">
+      <ID>FREQUENCY</ID>
+      <Name>FREQUENCY</Name>
+      <KeyColumns>
+        <KeyColumn dwd:design-time-name="c20f4169-9c16-4744-9203-9464f0e652c1">
+          <DataType>WChar</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="d5cf1d85-5c4c-467d-b574-b65c4fe7674b">
+            <TableID>dbo_DimDoctor</TableID>
+            <ColumnID>FREQUENCY</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="06567d92-38d6-4ffc-b43c-6e64637fbabf">
+          <DataType>SmallInt</DataType>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="55e966fa-9a08-49e5-879d-44f6b9ed9ffa">
+            <TableID>dbo_DimDoctor</TableID>
+            <ColumnID>DoctorSK</ColumnID>
+          </Source>
+        </KeyColumn>
+      </KeyColumns>
+      <NameColumn dwd:design-time-name="69b5f340-a093-417c-9244-4169b29e2763">
+        <DataType>WChar</DataType>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="edab4c79-d0e9-47e3-88bf-69e7f2b8286c">
+          <TableID>dbo_DimDoctor</TableID>
+          <ColumnID>FREQUENCY</ColumnID>
+        </Source>
+      </NameColumn>
+      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
+      <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
+    </Attribute>
+  </Attributes>
+  <ddl300:ProcessingState>Unprocessed</ddl300:ProcessingState>
+</Dimension>

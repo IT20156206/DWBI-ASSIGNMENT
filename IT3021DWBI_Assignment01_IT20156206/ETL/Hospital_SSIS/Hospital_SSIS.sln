@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32413.511
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{159641D6-6404-4A2A-AE62-294DE0FE8301}") = "Hospital_SSIS", "Hospital_SSIS\Hospital_SSIS.dtproj", "{62DF04BE-0F04-4CA4-AB87-BE2020559738}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62DF04BE-0F04-4CA4-AB87-BE2020559738}.Development|Default.ActiveCfg = Development
+		{62DF04BE-0F04-4CA4-AB87-BE2020559738}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AEC09F65-CF1B-458E-AF36-3FCD5F15D211}
+	EndGlobalSection
+EndGlobal
